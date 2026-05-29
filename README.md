@@ -4,4 +4,4 @@
 
 ---
 
-The open-source code is currently under review, and we will release it no later than June 1.
+The open-source code is currently under review, and we will release code and models no later than June 2.
