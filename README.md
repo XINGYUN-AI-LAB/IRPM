@@ -1,6 +1,6 @@
 # IRPM: Intergroup Relative Preference Modeling for Pointwise Generative Reward Models
 
-[**Paper**](https://arxiv.org/abs/2601.00677) | [**Models (Coming Soon)**]()
+[**Paper**](https://arxiv.org/abs/2601.00677) | [**Models**](https://hf.co/collections/chenji24/irpm)
 
 ---
 
