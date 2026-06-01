@@ -11,6 +11,10 @@
 compress/log*.txt
 */*.jsonl
 *.jsonl
+.claude
+*/.claude
+*.pyc
+*/*.pyc
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

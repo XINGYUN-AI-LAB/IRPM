@@ -1,0 +1,9 @@
+NemoTron:
+  api_type: Nemotron340BRM 
+  model: nvidia/nemotron-4-340b-reward
+  endpoints:
+    base_url: https://integrate.api.nvidia.com/v1
+    api_key: removed
+  parallel: 8
+
+model_to_inference: NemoTron

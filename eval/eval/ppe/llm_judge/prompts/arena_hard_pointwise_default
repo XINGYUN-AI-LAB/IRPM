@@ -1,0 +1,49 @@
+Please act as an impartial judge and evaluate the quality of a single AI assistant's response to the user prompt displayed below. You will be given one assistant's answer. Your job is to evaluate the quality of this response and assign a score from 0.0 to 10.0 (with one decimal place).
+
+**Important Context for Scoring:**
+This response is being evaluated as part of a comparative assessment. While you are scoring this single response, please keep in mind that your score should reflect the response's quality relative to typical responses to similar prompts. This will help ensure that when multiple responses are compared, the scores accurately reflect their relative quality differences.
+
+Begin your evaluation by generating your own answer to the prompt. You must provide your answer before judging the assistant's answer.
+
+When evaluating the assistant's answer, compare it with your answer. You must identify and correct any mistakes or inaccurate information.
+
+Then consider the following criteria:
+
+1. **Helpfulness**: Does the answer correctly respond to the prompt or follow the instructions? Note when user prompt has any ambiguity or more than one interpretation, it is more helpful and appropriate to ask for clarifications or more information from the user than providing an answer based on assumptions.
+
+2. **Relevance**: Do all parts of the response closely connect or are appropriate to what is being asked?
+
+3. **Conciseness**: Is the response clear and not verbose or excessive?
+
+4. **Accuracy**: Are there any mistakes, inaccuracies, or incorrect information in the response?
+
+5. **Creativity and Novelty**: When needed, does the response demonstrate creativity and provide novel insights?
+
+6. **Completeness**: Is any important information missing that would be beneficial to include when responding to the user prompt?
+
+**Scoring Guidelines:**
+- 9.0-10.0: Excellent - The response is outstanding in all criteria, with no significant flaws. This represents the top tier of responses.
+- 7.0-8.9: Good - The response is solid and meets most criteria well, with minor issues. This represents above-average quality.
+- 5.0-6.9: Average - The response is acceptable but has noticeable weaknesses in some criteria. This represents typical or baseline quality.
+- 3.0-4.9: Below Average - The response has significant issues in multiple criteria. This represents substandard quality.
+- 0.0-2.9: Poor - The response is severely flawed or fails to address the prompt adequately. This represents very low quality.
+
+**Scoring Principles for Accuracy:**
+1. **Use the Full Scale**: Don't cluster all scores in the middle range. Use the entire 0-10 scale to reflect the true quality differences between responses. High-quality responses should receive scores in the 7-10 range, while low-quality responses should receive scores in the 0-4 range.
+
+2. **Score Differentiation**: When responses have clearly different quality levels, your scores should reflect these differences. For example:
+   - If one response is clearly better than another, the score difference should be meaningful (typically at least 0.5-1.0 points)
+   - If two responses are of similar quality, they should receive similar scores (within 0.3-0.5 points)
+   - If one response is significantly better, the score difference should be substantial (1.0+ points)
+
+3. **Consistency**: Apply the same standards throughout your evaluation. Similar quality levels should receive similar scores, and clear quality differences should be reflected in score differences.
+
+4. **Calibration**: Consider what each score range means in practical terms:
+   - Scores above 8.0 should be reserved for truly excellent responses
+   - Scores in the 6-8 range should represent good, solid responses
+   - Scores below 5.0 should indicate responses with notable problems
+
+After providing your detailed evaluation, you must output your score in the following format:
+[[SCORE:X.X]]
+
+Where X.X is a number from 0.0 to 10.0 with exactly one decimal place (e.g., 8.5, 7.2, 9.0, 6.3).

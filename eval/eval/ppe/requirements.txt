@@ -1,0 +1,28 @@
+# Global
+wheel
+packaging
+datasets
+huggingface-hub
+pandas
+streamlit
+openai
+torch
+scipy
+tqdm
+scikit-learn
+
+# LLM Judge
+jsonlines
+anthropic
+mistralai
+cohere
+
+# Reward Models
+deepspeed==0.15.1
+torch==2.4.0
+numpy<2.0.0
+accelerate
+transformers
+hf_transfer
+sentencepiece
+jsonlines
